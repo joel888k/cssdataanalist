@@ -1,0 +1,39 @@
+fase iniziale
+git config --global user.name " your name" ---> configura il nome dentro git
+
+git confir --global user.email " your email" ---> configura  l email dentro git
+
+git config --global --list ---> stampa una lista di variabili locali di git
+
+#check status repository
+
+git status--> fa un check su lo stato  della ripositori locale
+
+#init ripository locale
+
+git init --> crea una repositori locale
+git -v
+
+# gestione repository locale
+
+git add "nome file" --> traccai il file
+git add ----> traccia tutti i file
+git commit -m "messagio"---> per salvare tuuti i file nella ripositori
+
+#clone repository remota
+git clone " link" ---> clona la repository remota in locale
+
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/joel888k/cssdataanalist.git
+git push -u origin main -----
+
+# passaggi git
+git commit---->Ajouter des modifications dans la zone de préparation au référentiel Git local
+git push <remote> <local>: Dépôt git local → Dépôt git distant
+git pull <remote> <local>:Dépôt git local ← Dépôt git distant
+git push ---> carico i nuovi file nella repository remota
+git pull -----> carico le modifiche sulla repository locale
